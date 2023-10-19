@@ -1,0 +1,227 @@
+a {
+  text-decoration: none;
+}
+
+/* font-family: 'Raleway', sans-serif;
+font-family: 'Roboto Condensed', sans-serif; */
+
+body {
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #242121;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 18px;
+  letter-spacing: 0.6px;
+}
+
+.title {
+  color: #01353E;
+  font-family: 'Raleway', sans-serif;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: normal;
+  text-align: center;
+  position: relative;
+}
+
+.title::after {
+  content: "/";
+  position: absolute;
+  color: #00B2A0;
+  font-size: 72px;
+}
+
+.container {
+  max-width: 1220px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.header {
+  padding-top: 45px;
+  background-image: url('../images/bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom center;
+  min-height: 100vh;
+}
+
+.header__top-inner {
+  display: flex;
+  align-items: center;
+}
+
+.menu {
+  margin: 0 auto;
+}
+
+.menu__list {
+  display: flex;
+  gap: 43px;
+}
+
+.menu__list-link {
+  padding: 0 1px 5px;
+  color: #FFF;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: normal;
+  transition: all .3s;
+}
+
+.menu__list-link:hover {
+  border-bottom: 1px solid #00B2A0;
+}
+
+.header__content-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  min-height: calc(100vh - 92px);
+}
+
+.header__title {
+  color: #0D302C;
+  font-family: 'Raleway', sans-serif;
+  font-size: 200px;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: auto;
+}
+
+.header__subtitle {
+  color: #000;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: auto;
+}
+
+.header__content-icon {
+  margin-bottom: 93px;
+}
+
+.about-school__inner {
+  padding: 190px 0 200px;
+}
+
+.about-school__title {
+  margin-bottom: 100px;
+}
+
+.about-school__text {
+  display: grid;
+  grid-template-columns: auto auto;
+  column-gap: 120px;
+  row-gap: 30px;
+}
+
+.get {
+  background-color: #F8F8F8;
+  padding: 200px 0 170px;
+}
+
+.get__title {
+  margin-bottom: 100px;
+}
+
+.get__items {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 103px;
+}
+
+.get__item {
+  max-width: 350px;
+  display: grid;
+  grid-template-rows: subgrid;
+}
+
+.get__item-title {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28px;
+  max-width: 155px;
+  margin: auto 70px 15px auto;
+  position: relative;
+}
+
+.get__item-title::before {
+  content: "";
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  left: -60px;
+  top: 5px;
+}
+
+.get__item-title--live::before {
+  background-image: url('../images/live.svg');
+  top: -30%;
+}
+
+.get__item-title--plane::before {
+  background-image: url('../images/plane.svg');
+}
+
+.get__item-title--study::before {
+  background-image: url('../images/study.svg');
+}
+
+.get__item-text {
+  margin-top: auto;
+}
+
+.get__bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.get__bottom-items {
+  max-width: 350px;
+  margin-top: 10px;
+}
+
+.get__bottom-item {
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.get__bottom-item span {
+  font-size: 24px;
+  font-weight: 400;
+  position: absolute;
+  right: -10px;
+  top: -5px;
+}
+
+.get__bottom-info {
+  max-width: 600px;
+}
+
+.get__bottom-text {
+  margin-bottom: 30px;
+}
+
+.vertex {
+  padding: 200px 0 150px;
+  background-image: url('../images/vertex-bg.jpg');
+  background-repeat: no-repeat;
+  background-size: 48%;
+  background-position: right;
+}
+
+.vertex__inner {
+  margin-right: auto;
+  max-width: 515px;
+}
+
+.vertex__title {
+  margin-bottom: 100px;
+}
+
+.vertex__text {
+  display: grid;
+  row-gap: 30px;
+}
