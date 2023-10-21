@@ -12,6 +12,7 @@
     href="https://fonts.googleapis.com/css2?family=Raleway:wght@600;700&family=Roboto+Condensed:wght@300;400;700&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css">
   <link rel="stylesheet" href="css/slick.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
@@ -195,8 +196,82 @@
       </div>
     </div>
   </section>
+  <section class="gallery">
+    <div class="container">
+      <h2 class="title gallery__title">
+        ГАЛЕРЕЯ
+      </h2>
+      <div class="gallery__inner">
+        <div class="gallery__filter-btn">
+          <button class="gallery__btn" data-filter="all">ВСЕ</button>
+          <button class="gallery__btn" data-filter=".category-a">ТУРИСТЫ</button>
+          <button class="gallery__btn" data-filter=".category-b">ПРИРОДА</button>
+          <button class="gallery__btn" data-filter=".category-c">ПРОФИ</button>
+        </div>
+        <div class="gallery__content">
+          <div class="gallery__item mix category-a">
+            <img class="gallery__item-img" src="images/gallery/1.jpg" alt="image-1">
+            <a class="gallery__item-link" href="#"></a>
+          </div>
+          <div class="gallery__item mix category-a">
+            <img class="gallery__item-img" src="images/gallery/2.jpg" alt="image-2">
+            <a class="gallery__item-link" href="#"></a>
+          </div>
+          <div class="gallery__item mix category-b">
+            <img class="gallery__item-img" src="images/gallery/3.jpg" alt="image-3">
+            <a class="gallery__item-link" href="#"></a>
+          </div>
+          <div class="gallery__item mix category-b">
+            <img class="gallery__item-img" src="images/gallery/4.jpg" alt="image-4">
+            <a class="gallery__item-link" href="#"></a>
+          </div>
+          <div class="gallery__item mix category-c">
+            <img class="gallery__item-img" src="images/gallery/5.jpg" alt="image-5">
+            <a class="gallery__item-link" href="#"></a>
+          </div>
+          <div class="gallery__item mix category-c">
+            <img class="gallery__item-img" src="images/gallery/6.jpg" alt="image-6">
+            <a class="gallery__item-link" href="#"></a>
+          </div>
+        </div>
+        <a class="gallery__add" href="#">ПОКАЗАТЬ ЕЩЕ</a>
+      </div>
+    </div>
+    <div class="blockquote">
+      <blockquote class="blockquote__inner">
+        «Если сомневаешься – иди катайся.»
+        <span class="blockquote__author">Нэт Янг, первый Чемпион Мира по сёрфингу</span>
+      </blockquote>
+    </div>
+    <div class="container">
+      <div class="gallery__video">
+        <a class="gallery__video-link" href="https://www.youtube.com/watch?v=ashwu4aUuKM" data-fancybox><img
+            class="gallery__video-play" src="images/play-video.svg" alt="play"></a>
+      </div>
+      <div class="gallery__numbers">
+        <h5 class="gallery__number">
+          450
+          <span>туристов</span>
+        </h5>
+        <h5 class="gallery__number">
+          2500
+          <span>часов катания</span>
+        </h5>
+        <h5 class="gallery__number">
+          10
+          <span>проф. тренеров</span>
+        </h5>
+        <h5 class="gallery__number">
+          365
+          <span>дней в году</span>
+        </h5>
+      </div>
+    </div>
+  </section>
 
   <script src="js/jquery-3.7.1.min.js"></script>
+  <script src="js/mixitup.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
   <script src="js/slick.min.js"></script>
   <script src="js/main.js"></script>
 </body>

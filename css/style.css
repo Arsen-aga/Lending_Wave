@@ -208,8 +208,9 @@ body {
   padding: 200px 0 150px;
   background-image: url('../images/vertex-bg.jpg');
   background-repeat: no-repeat;
-  background-size: 48%;
-  background-position: right;
+  background-size: 63%;
+  background-position: 135% center;
+  margin-bottom: 200px;
 }
 
 .vertex__inner {
@@ -224,4 +225,133 @@ body {
 .vertex__text {
   display: grid;
   row-gap: 30px;
+}
+
+.gallery {
+  padding-bottom: 200px;
+}
+
+.gallery__title {
+  margin-bottom: 212px;
+}
+
+.gallery__filter-btn {
+  margin-bottom: 50px;
+  display: flex;
+  gap: 20px;
+}
+
+.gallery__btn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.mixitup-control-active {
+  color: #00B2A0;
+}
+
+.gallery__content {
+  margin-bottom: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  overflow: hidden;
+}
+
+.gallery__item {
+  position: relative;
+}
+
+.gallery__item-link {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #333333B2;
+  opacity: 0;
+  transition: all .5s;
+}
+
+.gallery__item:hover .gallery__item-link {
+  opacity: 1;
+}
+
+.gallery__add {
+  display: block;
+  max-width: 350px;
+  margin: 0 auto;
+  padding: 23px 91px 24px;
+  border: 1px solid #C4C4C4;
+  color: #242121;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0.6px;
+  margin-bottom: 200px;
+}
+
+.blockquote {
+  padding: 81px 0 62px;
+  background-color: #F8F8F8;
+  margin-bottom: 200px;
+}
+
+.blockquote__inner {
+  display: block;
+  max-width: 865px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 40px;
+}
+
+.blockquote__author {
+  display: block;
+  text-align: right;
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 300;
+  line-height: 18px;
+  letter-spacing: 0.6px;
+}
+
+.gallery__video {
+  height: 600px;
+  background-image: url('../images/video-bg.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 200px;
+}
+
+.gallery__numbers {
+  display: flex;
+  justify-content: space-around;
+}
+
+.gallery__number {
+  text-align: center;
+  color: #01353E;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.gallery__number span {
+  display: block;
+  margin-top: 5px;
+  color: #242121;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 18px;
 }
