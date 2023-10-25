@@ -355,3 +355,267 @@ body {
   font-weight: 300;
   line-height: 18px;
 }
+
+.blog__title {
+  margin-bottom: 230px;
+}
+
+.blog__inner {
+  background-image: url('../images/slider-bg.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  padding: 315px 0 77px;
+  margin-bottom: 200px;
+}
+
+.blog__item-title {
+  color: #FFF;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 56px;
+  letter-spacing: 0.6px;
+  max-width: 600px;
+  margin-left: auto;
+}
+
+.blog__item-descr {
+  color: #FFF;
+  padding-bottom: 260px;
+  max-width: 600px;
+  margin-left: auto;
+}
+
+.slick-dots {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  padding-bottom: 77px;
+}
+
+.slick-dots button {
+  border: none;
+  background-color: #fff;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  font-size: 0;
+  cursor: pointer;
+}
+
+.slick-active button {
+  background-color: #00B2A0;
+}
+
+.team {
+  padding-bottom: 200px;
+}
+
+.team__title {
+  margin-bottom: 212px;
+}
+
+.team__items {
+  display: flex;
+  justify-content: space-between;
+}
+
+.team__item {
+  text-align: center;
+}
+
+.team__item-name {
+  margin: 25px 0 5px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 18px;
+}
+
+.team__item-position {
+  font-weight: 400;
+}
+
+.services {
+  padding: 200px 0;
+  background-color: #F8F8F8;
+}
+
+.services__title {
+  margin-bottom: 212px;
+}
+
+.services__items {
+  display: flex;
+  justify-content: space-between;
+}
+
+.services__item {
+  background-color: #fff;
+  min-width: 360px;
+  min-height: 577px;
+  padding: 45px 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.services__item-title {
+  text-align: center;
+  color: #01353E;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 40px;
+  margin-bottom: 48px;
+}
+
+.services__item-info {
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.services__item-price {
+  text-align: center;
+  margin-top: auto;
+  color: #01353E;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 40px;
+  position: relative;
+}
+
+.services__item-price span {
+  font-size: 18px;
+  line-height: 22px;
+  position: absolute;
+  margin-left: 5px;
+  bottom: 8px;
+}
+
+.map {
+  margin: 200px auto;
+  text-align: center;
+}
+
+.map__img {
+  display: inline-block;
+}
+
+.footer__title {
+  margin-bottom: 243px;
+}
+
+.footer__inner {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 200px;
+}
+
+.form {
+  width: 570px;
+  flex: none;
+  margin-right: 30px;
+}
+
+.form__name,
+.form__phone,
+.form__text {
+  border: none;
+  background-color: transparent;
+  display: block;
+  width: 100%;
+  padding-bottom: 18px;
+  border-bottom: 2px solid #DADADA;
+  letter-spacing: 0.6px;
+  outline: none;
+}
+
+.form__name::placeholder,
+.form__phone::placeholder,
+.form__text::placeholder {
+  color: #00B2A0;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0.6px;
+}
+
+.form__phone {
+  margin: 32px 0 53px;
+}
+
+.form__text {
+  min-height: 156px;
+  resize: none;
+}
+
+.form__text::placeholder {
+  width: 200px;
+}
+
+.form__btn {
+  margin-top: 73px;
+  background-color: transparent;
+  padding: 24px 111px;
+  border: 1px solid #C4C4C4;
+  text-transform: uppercase;
+  color: #242121;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0.6px;
+}
+
+.footer__item {
+  display: grid;
+  row-gap: 65px;
+  padding: 50px 220px 70px 52px;
+  color: #242121;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.6px;
+}
+
+.footer__item-info span {
+  display: block;
+}
+
+.footer__item-info a {
+  color: #242121;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.6px;
+  display: block;
+}
+
+.footer__contacts {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 200px;
+}
+
+.footer__contacts-link {
+  color: #242121;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0.6px;
+}
+
+.footer__contacts-link:hover {
+  color: #00B2A0;
+}
+
+.footer__bottom {
+  background-color: #00B2A0;
+  text-align: center;
+  padding: 68px 0;
+}
+
+.footer__bottom .logo {
+  display: inline-block;
+}
