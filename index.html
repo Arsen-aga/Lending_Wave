@@ -18,33 +18,35 @@
 </head>
 
 <body>
-
-  <header class="header">
+  <header class="header" id="home">
     <div class="header__top">
       <div class="container">
         <div class="header__top-inner">
-          <a class="logo" href="#">
+          <a class="logo" href="#home">
             <img class="logo__img" src="images/logo.svg" alt="logo">
           </a>
           <nav class="menu">
+            <button class="menu__btn">
+              <img src="images/menu-btn.svg" alt="menu button">
+            </button>
             <ul class="menu__list">
               <li class="menu__list-item">
-                <a class="menu__list-link" href="#">О нас</a>
+                <a class="menu__list-link" href="#about">О нас</a>
               </li>
               <li class="menu__list-item">
-                <a class="menu__list-link" href="#">Услуги</a>
+                <a class="menu__list-link" href="#services">Услуги</a>
               </li>
               <li class="menu__list-item">
-                <a class="menu__list-link" href="#">Стоимость</a>
+                <a class="menu__list-link" href="#price">Стоимость</a>
               </li>
               <li class="menu__list-item">
-                <a class="menu__list-link" href="#">Блог</a>
+                <a class="menu__list-link" href="#blog">Блог</a>
               </li>
               <li class="menu__list-item">
-                <a class="menu__list-link" href="#">Команда</a>
+                <a class="menu__list-link" href="#team">Команда</a>
               </li>
               <li class="menu__list-item">
-                <a class="menu__list-link" href="#">Контакты</a>
+                <a class="menu__list-link" href="#contacts">Контакты</a>
               </li>
             </ul>
           </nav>
@@ -67,7 +69,7 @@
       </div>
     </div>
   </header>
-  <section class="about-school">
+  <section class="about-school" id="about">
     <div class="container">
       <div class="about-school__inner">
         <h2 class="title about-school__title">
@@ -102,7 +104,7 @@
       </div>
     </div>
   </section>
-  <section class="get">
+  <section class="get" id="services">
     <div class="container">
       <h2 class="title get__title">
         В ШКОЛЕ ВЫ ПОЛУЧИТЕ
@@ -196,6 +198,7 @@
       </div>
     </div>
   </section>
+
   <section class="gallery">
     <div class="container">
       <h2 class="title gallery__title">
@@ -268,7 +271,7 @@
       </div>
     </div>
   </section>
-  <section class="blog">
+  <section class="blog" id="blog">
     <h2 class="title blog__title">
       БЛОГ
     </h2>
@@ -379,7 +382,7 @@
       </div>
     </div>
   </section>
-  <section class="team">
+  <section class="team" id="team">
     <div class="container">
       <h2 class="title team__title">
         НАША КОМАНДА
@@ -403,7 +406,7 @@
       </div>
     </div>
   </section>
-  <section class="services">
+  <section class="services" id="price">
     <div class="container">
       <h2 class="title services__title">
         ПАКЕТЫ УСЛУГ
@@ -455,7 +458,7 @@
   <div class="map">
     <img class="map__img" src="images/map.jpg" alt="map">
   </div>
-  <footer class="footer">
+  <footer class="footer" id="contacts">
     <div class="container">
       <h2 class="title footer__title">
         ОСТАВИТЬ ЗАЯВКУ
